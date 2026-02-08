@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Ma Boutique</h1>
+  <nav>
+    <a href="index.html">Articles</a>
+    <a href="panier.html">Panier</a>
+    <a href="inscription.html">S’inscrire</a>
+  </nav>
+</header>
+
+<main class="articles">
+
+  <div class="article">
+    <img src="images/article1.jpg" alt="Article 1">
+    <h3>Article 1</h3>
+    <p>Prix : 20 DT</p>
+    <button onclick="ajouterPanier('Article 1', 20)">Commander</button>
+  </div>
+
+  <div class="article">
+    <img src="images/article2.jpg" alt="Article 2">
+    <h3>Article 2</h3>
+    <p>Prix : 35 DT</p>
+    <button onclick="ajouterPanier('Article 2', 35)">Commander</button>
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
